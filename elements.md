@@ -62,7 +62,7 @@ Attributes: None
 ```html
 <nav-center>
     <p>Example Nav</p>
-</nav-center>
+</nav-right>
 ```
 
 ## `<nav-right>`
