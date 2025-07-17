@@ -12,6 +12,5 @@ function hintApplyTheme(theme) {
 
 document.querySelectorAll("sidebar").forEach(sidebar => {
   const width = sidebar.getAttribute("width") || "192px";
-
   sidebar.style.width = width;
 });
