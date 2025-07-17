@@ -10,11 +10,13 @@ function hintApplyTheme(theme) {
 
 // Custom Elements
 
+// Sidebar
 document.querySelectorAll("sidebar").forEach(sidebar => {
   const width = sidebar.getAttribute("width") || "192px";
   sidebar.style.width = width;
 });
 
+// Nav
 document.querySelectorAll("nav").forEach(nav => {
   const height = nav.getAttribute("height") || "24px";
   nav.style.height = height;
