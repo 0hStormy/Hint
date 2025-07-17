@@ -1,0 +1,48 @@
+<head>
+    <link rel="stylesheet" href="hint.css">
+</head>
+<body>
+    <nav height="24px">
+        <nav-left>
+            <a href="">Home</a>
+            <a href="">Projects</a>
+            <a href="">Blog</a>
+        </nav-left>
+        <nav-center>
+            <p>Example Nav</p>
+        </nav-center>
+        <nav-right>
+            <a href="">Donate</a>
+        </nav-right>
+    </nav>
+    <hori>
+        <sidebar width="192px">
+            <h3>Left Sidebar</h3>
+            <p>Sidebar</p>
+            <p>fsafdsfg</p>
+        </sidebar>
+        <block-center>
+            <h1>Content area</h1>
+            <p>I am a paragraph</p>
+            <ul>
+                <li>Apple</li>
+                <li>Banana</li>
+                <li>Orange</li>
+            </ul>
+            <container>
+                <p>I am a container</p>
+                <input type="text">
+                <select>
+                    <option>Apple</option>
+                    <option>Banana</option>
+                </select>
+                <button class="accent-bg">Apply</button>
+            </container>
+        </block-center>
+        <sidebar width="192px">
+            <h3>Right Sidebar</h3>
+            <p>Sidebar</p>
+            <p>fsafdsfg</p>
+        </sidebar>
+    </hori>
+</body>
