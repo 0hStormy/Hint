@@ -43,6 +43,14 @@ document.querySelectorAll("input").forEach(input => {
   input.style.height = height;
 });
 
+// Button
+document.querySelectorAll("button").forEach(button => {
+  const width = button.getAttribute("width") || "auto";
+  const height = button.getAttribute("height") || "auto";
+  button.style.width = width;
+  button.style.height = height;
+});
+
 // Theme
 const themes = document.querySelectorAll("theme");
 await Promise.all(

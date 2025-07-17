@@ -155,9 +155,11 @@ Attributes: None
 
 ## `<button>`
 
-Puts elements in a box for seperation and organization purposes.
+interactive element the user can click on
 
-Attributes: None
+Attributes:
+* `width`
+* `height`
 
 ```html
 <button>
