@@ -221,6 +221,10 @@ hori-center {
     justify-content: center;
 }
 
+img {
+    border-radius: var(--round);
+}
+
 .material-symbols-outlined {
     user-select: none;
 }
