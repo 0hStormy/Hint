@@ -1,5 +1,4 @@
 <head>
-    <link rel="stylesheet" href="hint.css">
     <theme src="exampleTheme.json"></theme>
 </head>
 <body>

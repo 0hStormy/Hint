@@ -8,6 +8,14 @@ function hintApplyTheme(theme) {
     });
 }
 
+function addCss(fileName) {
+    const link = document.createElement("link");
+    link.rel = "stylesheet";
+    link.type = "text/css";
+    link.href = fileName;
+    document.head.appendChild(link);
+}
+
 // Custom Elements
 
 // Sidebar
@@ -38,3 +46,7 @@ await Promise.all(
     }
   })
 );
+
+
+// Startup
+addCss("hint.css")
