@@ -210,6 +210,10 @@ abs-center {
   transform: translate(-50%, -50%);
 }
 
+text-center {
+    text-align: center;
+}
+
 .material-symbols-outlined {
     user-select: none;
 }
