@@ -197,3 +197,7 @@ nav-right {
 nav-center {
     margin-inline: auto;
 }
+
+.material-symbols-outlined {
+    user-select: none;
+}

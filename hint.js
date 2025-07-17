@@ -63,8 +63,10 @@ await Promise.all(
 // Icon (Material Symbols)
 document.querySelectorAll("icon").forEach(icon => {
   const span = document.createElement("span");
+  const size = icon.getAttribute("size") || "24px";
   span.className = "material-symbols-outlined";
   span.textContent = icon.textContent;
+  span.style.fontSize = size
 
   icon.replaceWith(span);
 });

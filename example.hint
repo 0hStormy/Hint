@@ -35,11 +35,11 @@
                 </p>
                 <block-center>
                     <hori>
-                        <icon>close</icon>
-                        <icon>apps</icon>
+                        <icon size="16px">close</icon>
+                        <icon size="20px">apps</icon>
                         <icon>menu</icon>
-                        <icon>forward</icon>
-                        <icon>person</icon>
+                        <icon size="32px">forward</icon>
+                        <icon size="36px">person</icon>
                     </hori>
                 </block-center>
                 <input type="text">
