@@ -165,6 +165,17 @@ Attributes:
 <button class="accent-bg">Apply</button>
 ```
 
+## `<icon>`
+
+A glyph that helps the user figure out what something is. Relies on [Material Symbols](https://fonts.google.com/icons).
+
+Attributes:
+* `size`
+
+```html
+<icon>search</icon>
+```
+
 # Common CSS Classes
 
 * `accent-bg`: Changes an elements background color to the accent color.
