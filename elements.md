@@ -162,15 +162,7 @@ Attributes:
 * `height`
 
 ```html
-<button>
-    <p>I am a container</p>
-    <input type="text">
-    <select>
-        <option>Apple</option>
-        <option>Banana</option>
-    </select>
-    <button class="accent-bg">Apply</button>
-</button>
+<button class="accent-bg">Apply</button>
 ```
 
 # Common CSS Classes
