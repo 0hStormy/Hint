@@ -16,6 +16,13 @@ function addCss(fileName) {
     document.head.appendChild(link);
 }
 
+function addMaterialSymbols() {
+  const symbols = document.createElement('link');
+  symbols.rel = "stylesheet";
+  symbols.href = "https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200";
+  document.getElementsByTagName('head')[0].appendChild(symbols);
+}
+
 // Custom Elements
 
 // Sidebar
@@ -28,6 +35,12 @@ document.querySelectorAll("sidebar").forEach(sidebar => {
 document.querySelectorAll("nav").forEach(nav => {
   const height = nav.getAttribute("height") || "24px";
   nav.style.height = height;
+});
+
+// Input
+document.querySelectorAll("input").forEach(input => {
+  const height = input.getAttribute("height") || "24px";
+  input.style.height = height;
 });
 
 // Theme
@@ -47,6 +60,17 @@ await Promise.all(
   })
 );
 
+// Icon (Material Symbols)
+document.querySelectorAll("icon").forEach(icon => {
+  const span = document.createElement("span");
+  span.className = "material-symbols-outlined";
+  span.textContent = icon.textContent;
+
+  icon.replaceWith(span);
+});
 
 // Startup
 addCss("hint.css")
+
+// Material Symbols
+addMaterialSymbols()

@@ -33,7 +33,7 @@ hori {
     flex: 1;
 }
 
-p, span, h1, h2, h3, h4, h5, h6, a {
+p, h1, h2, h3, h4, h5, h6, a {
     margin: 4px;
     margin-inline: 8px;
 }
@@ -54,7 +54,7 @@ h4 {
     font-size: 14pt;
 }
 
-p, span, a {
+p, a {
     font-size: 12pt;
 }
 
@@ -159,6 +159,7 @@ container {
     background-color: var(--box);
     display: flex;
     flex-direction: column;
+    text-align: center;
 
     width: 100%;
     padding: 8px;

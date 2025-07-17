@@ -9,7 +9,7 @@
             <a href="">Blog</a>
         </nav-left>
         <nav-center>
-            <p>Example Nav</p>
+            <input height="24px" placeholder="Search" type="text">
         </nav-center>
         <nav-right>
             <a href="">Donate</a>
@@ -30,7 +30,18 @@
                 <li>Orange</li>
             </ul>
             <container>
-                <p>I am a container</p>
+                <p>
+                    I am a container, below me are some material icons.
+                </p>
+                <block-center>
+                    <hori>
+                        <icon>close</icon>
+                        <icon>apps</icon>
+                        <icon>menu</icon>
+                        <icon>forward</icon>
+                        <icon>person</icon>
+                    </hori>
+                </block-center>
                 <input type="text">
                 <select>
                     <option>Apple</option>
