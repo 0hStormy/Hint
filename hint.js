@@ -28,12 +28,16 @@ function addMaterialSymbols() {
 // Sidebar
 document.querySelectorAll("sidebar").forEach(sidebar => {
   const width = sidebar.getAttribute("width") || "192px";
+  const id = sidebar.getAttribute("id") || "";
+  span.id = id
   sidebar.style.width = width;
 });
 
 // Nav
 document.querySelectorAll("nav").forEach(nav => {
   const height = nav.getAttribute("height") || "24px";
+  const id = nav.getAttribute("id") || "";
+  span.id = id
   nav.style.height = height;
 });
 
@@ -72,6 +76,8 @@ await Promise.all(
 document.querySelectorAll("icon").forEach(icon => {
   const span = document.createElement("span");
   const size = icon.getAttribute("size") || "24px";
+  const id = icon.getAttribute("id") || "";
+  span.id = id
   span.className = "material-symbols-outlined";
   span.textContent = icon.textContent;
   span.style.fontSize = size
