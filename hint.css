@@ -159,13 +159,17 @@ container {
     background-color: var(--box);
     display: flex;
     flex-direction: column;
-    text-align: center;
 
     width: 100%;
     padding: 8px;
     border-radius: var(--round);
     margin: 8px;
     margin-inline-start: 0;
+}
+
+container p {
+    max-width: 480px;
+    width: 100%;
 }
 
 nav {
