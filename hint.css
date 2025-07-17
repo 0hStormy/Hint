@@ -214,6 +214,13 @@ text-center {
     text-align: center;
 }
 
+hori-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .material-symbols-outlined {
     user-select: none;
 }
